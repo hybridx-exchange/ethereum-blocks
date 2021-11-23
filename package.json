@@ -5,9 +5,9 @@
     "codegen": "graph codegen",
     "build": "graph build",
     "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ emerald/ethereum-blocks",
-    "create-local": "graph create --node http://localhost:8020/ emerald/ethereum-blocks",
-    "remove-local": "graph remove --node http://localhost:8020/ emerald/ethereum-blocks",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 emerald/ethereum-blocks"
+    "create-local": "graph create --node http://localhost:8020/ emerald/ethereum-blocks --access-token 5f1b4e1c6ac94ea68db9847a9f7b2ae7",
+    "remove-local": "graph remove --node http://localhost:8020/ emerald/ethereum-blocks --access-token 5f1b4e1c6ac94ea68db9847a9f7b2ae7",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 emerald/ethereum-blocks --access-token 5f1b4e1c6ac94ea68db9847a9f7b2ae7"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "^0.17.1",

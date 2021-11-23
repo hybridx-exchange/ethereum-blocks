@@ -12,7 +12,7 @@ dataSources:
       abi: MulticallContract
       startBlock: 1
     mapping:
-      kind: ethereum/events
+      kind: ethereum/function
       apiVersion: 0.0.3
       language: wasm/assemblyscript
       entities:

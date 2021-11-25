@@ -5,7 +5,7 @@ schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
-    name: Multicall
+    name: FactoryContract
     network: emerald
     source:
       address: "0xfb7a5Ca86Be70A359A43B5ad6bF47606f8B7F96B"
